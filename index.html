@@ -1,0 +1,50 @@
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DAISHO × GKU | 高大連携プロジェクト</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>DAISHO × GKU</h1>
+    <p class="tagline">高校と大学が共に創る学びのかたち</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>
+        大垣商業高等学校（DAISHO）と岐阜協立大学(GKU)が連携し、<br>
+        情報・デザイン・ビジネスをテーマに学びと実践を結びつけるプロジェクトです。
+      </p>
+    </section>
+
+    <section>
+      <h2>Activities</h2>
+      <ul>
+        <li>GitHubを活用したチーム開発・作品共有</li>
+        <li>microbitやWebアプリを使った実践演習</li>
+        <li>地域課題をテーマにしたアイデア創出</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Goal</h2>
+      <p>
+        学校の垣根を越えた共創の場を通して、<br>
+        自ら考え、形にする力を育てます。
+      </p>
+      <a class="button" href="https://github.com/REPO_URL" target="_blank" rel="noopener">View on GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> DAISHO × GKU project</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
